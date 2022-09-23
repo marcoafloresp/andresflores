@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h5{
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+h6{
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(67, 121, 102);
+}
+.navegacionContainer .nav .nav-item .nav-link {
+    margin-inline: 25px;
+    color: rgb(167, 167, 167);
+    padding: 5px;
+    &:hover{
+        color: rgb(67, 121, 102);
+        background-color: rgb(225, 255, 245);
+        border-radius: 10px;
+      }
+      font-family: 'Poppins', sans-serif;
+    }
+.containerVideo{
+    width: 85%;
+    margin: auto;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+}
+.textoAero{
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    text-align: center;
+    margin: auto;
+    font-size: 0.9rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    grid-area: footer;
+    .footericonos{
+      width: auto;
+      height: auto;
+      padding: 5px;
+      img{
+        width: 35px;
+        height: auto;
+        margin: 4px 10px 0px 10px;
+      }
+    }
+  }
+  .textofooter{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(97, 97, 97);
+  }
+  .btnFace:hover{
+    opacity: 70%;
+  }
+  .btnInsta:hover{
+    opacity: 70%;
+  }
+  .btnLink:hover{
+    opacity: 70%;
+  }
+  .btnTweet:hover{
+    opacity: 70%;
+  }
+  .containerProfile img{
+    margin-bottom: 20px;
+    padding: 5px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.5);
+  }
+  .profileBox{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .profileBoxOk{
+    padding: 0px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(168, 246, 220);
+    background-color: rgb(225, 255, 245);;
+  }
+  .nombre{
+    font-family: 'Poppins', sans-serif;
+  }
+  .profileBox .profileBoxOk .nombre{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(79, 79, 79);
+  }
+  .profileBox .profileBoxOk .info{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(167, 167, 167);
+    text-size-adjust: 10px;
+  }
+
+  // galeriafotos //
+  .galeryBox{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    .row{
+      display: flex;
+      justify-content: space-around;
+      margin-top: -70px;
+      padding: 50px;
+      .morganF{
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+        width: fit-content;
+        height: auto;
+        cursor: pointer;
+        img{
+          border-width: 2px;
+          border-style: solid;
+          border-color: gray;
+          padding: 4px;
+          width: auto;
+          height: 450px;
+        }
+      }
+    }
+  }
+  .nicoleK{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+    width: fit-content;
+    height: auto;
+    cursor: pointer;
+    img{
+      border-width: 2px;
+      border-style: solid;
+      border-color: gray;
+      padding: 4px;
+      width: auto;
+      height: 450px;
+    }
+  }
+  .marilynM{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+    width: fit-content;
+    height: auto;
+    cursor: pointer;
+    img{
+      border-width: 2px;
+      border-style: solid;
+      border-color: gray;
+      padding: 4px;
+      width: auto;
+      height: 450px;
+    }
+  }
+  .mickJagger{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+    width:fit-content;
+    height: auto;
+    cursor: pointer;
+    img{
+      border-width: 2px;
+      border-style: solid;
+      border-color: gray;
+      padding: 4px;
+      width: auto;
+      height: 450px;
+    }
+  }
+  #img-activa {
+    width: 100%;
+    height: auto;
+  }
+  #contenedor-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  #contenedor-interno {
+    border: 2px #f3f3f3 solid;
+    padding: 2px;
+    background: #3f3f3f;
+    max-width: 85%;
+    min-height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #f3f3f3;
+    transition: .5s;
+  }
+  button:hover{
+    color: rgb(168, 246, 220);
+  }
+  
+  #btn-cierra {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: gray;
+    padding: 0 8px 3px 8px;
+    font-size: 1.5rem;
+    transition: .5s;
+  }
+  #btn-cierra:hover{
+    background-color: #3f3f3f;
+  }
+
+  @media (max-width: 600px){   
+    body{
+        overflow-x: hidden;
+      }
+      .galeryBox{
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        .row{
+          display: flex;
+          justify-content: space-around;
+          margin-top: -70px;
+          padding: 30px;
+          .morganF{
+            box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+            width: fit-content;
+            height: auto;
+            cursor: pointer;
+            img{
+              border-width: 2px;
+              border-style: solid;
+              border-color: gray;
+              padding: 4px;
+              width: auto;
+              height: auto;
+            }
+          }
+        }
+      }
+      .nicoleK{
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+        width: fit-content;
+        height: auto;
+        cursor: pointer;
+        img{
+          border-width: 2px;
+          border-style: solid;
+          border-color: gray;
+          padding: 4px;
+          width: auto;
+          height: auto;
+        }
+      }
+      .marilynM{
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+        width: fit-content;
+        height: auto;
+        cursor: pointer;
+        img{
+          border-width: 2px;
+          border-style: solid;
+          border-color: gray;
+          padding: 4px;
+          width: auto;
+          height: auto;
+        }
+      }
+      .mickJagger{
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,.5);
+        width:fit-content;
+        height: auto;
+        cursor: pointer;
+        img{
+          border-width: 2px;
+          border-style: solid;
+          border-color: gray;
+          padding: 4px;
+          width: auto;
+          height: auto;
+        }
+      }
+
+  }
