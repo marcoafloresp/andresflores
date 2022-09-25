@@ -41,16 +41,6 @@ textarea {
   position: relative;
 }
 
-.contact-form:before {
-  content: "";
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  background-color: #1abc9c;
-  transform: rotate(45deg);
-  top: 50px;
-  left: -13px;
-}
 
 form {
   padding: 2.3rem 2.2rem;
